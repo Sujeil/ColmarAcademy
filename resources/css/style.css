@@ -1,0 +1,31 @@
+body{}
+
+header{
+    height: 64px;
+    padding: 16px 24px;
+    font-size: 32px;
+    background-color: lightblue;
+}
+
+.lion{
+    height: 64px;
+}
+
+
+.desktop-nav{
+    float: right;
+    margin-top: 15px;
+}
+
+.desktop-nav a{
+    text-decoration: none;
+    color: black;
+    padding-left: 16px;
+}
+
+.mobile-nav{
+    display: none;
+}
+@media only screen and (min-width: 480px) {
+    
+}
