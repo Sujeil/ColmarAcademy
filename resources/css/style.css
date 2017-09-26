@@ -1,5 +1,26 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    color: #363535;
+}
+
+h2{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+h4{
+    font-size: 40px;
+}
+
+p{
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 30px;
+    line-height: 1.5;
 }
 
 header{
@@ -52,7 +73,6 @@ header{
     font-family: 'Droid Sans', sans-serif;
     text-decoration: none;
     color: black;
-    font-weight: 400;
     padding-left: 16px;
 }
 
@@ -108,12 +128,6 @@ header{
     margin-left: 24px;
     margin-top: 100px;
     line-height: 1.25;
-}
-
-.banner aside h2{
-    font-size: 70px;
-    font-weight: bold;
-    color: #2B2A2A;
 }
 
 .banner aside p{
@@ -201,7 +215,10 @@ header{
 }
 
 .side-info a{
-    color: lightskyblue;
+    color: #298CE9;
+    font-family: 'Droid Sans', sans-serif;
+    text-decoration: none;
+    font-size: 25px;
 }
 
 .mobile-side{
