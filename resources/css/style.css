@@ -88,3 +88,23 @@ header{
     background-color: darkgray;
     padding: 8px 30%;
 }
+
+@media only screen and (max-width: 480px){
+    .banner{
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .banner img{
+        width: 100%;
+    }
+
+    .banner aside{
+        margin: 32px 16px;
+    }
+
+    .banner aside p{
+        margin-top: 32px;
+        margin-bottom: 24px;
+    }
+}
