@@ -4,7 +4,6 @@ header{
     height: 64px;
     padding: 16px 24px;
     font-size: 32px;
-    background-color: lightblue;
     align-items: center;
     display: flex;
 }
@@ -20,7 +19,6 @@ header{
 }
 
 #colaca h3{
- 
 }
 
 #nav{
@@ -41,6 +39,42 @@ header{
 .mobile-nav{
     display: none;
 }
-@media only screen and (min-width: 480px) {
-    
+@media only screen and (max-width: 480px) {
+    header{
+        max-width: 480px;
+    }
+
+    #colaca{
+        width: auto;
+    }
+
+    .lion{
+        margin: 0 15px;
+    }
+
+    #colaca h3{
+        display: none;
+    }
+
+    .desktop-nav{
+        display: none;
+    }
+
+    .mobile-nav{
+        display: flex;    
+    }
+
+    .mobile-nav a{
+        padding: 0 15%; 
+    }
+
+    .mobile-nav img{
+        height: 55px;  
+    }
+
+
+
+    .banner{
+        display: none;
+    }
 }
