@@ -8,6 +8,10 @@ header{
     display: flex;
 }
 
+.container{
+    padding: 32px 24px;
+}
+
 .lion{
     height: 64px;
     margin: auto 0;
@@ -73,9 +77,13 @@ header{
 }
 
 .banner{
-    background-color: lightgray;
-    padding: 32px 24px;
+    background-color: darkgray;
     display: flex;
+}
+
+.banner img{
+    width: 60%;
+    padding: 32px 24px;
 }
 
 .banner aside{
@@ -107,4 +115,43 @@ header{
         margin-top: 32px;
         margin-bottom: 24px;
     }
+}
+
+.information{
+    display: flex;
+    background-color: lightgray;
+}
+
+.main h3{
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+.desktop-side{
+    flex-direction: column;
+    width: 40%;
+    border-left: 2px solid darkgrey;
+}
+
+.side-info{
+    border-bottom: 2px solid darkgrey;
+    display: block;
+    padding: 32px 22px;
+}
+
+.side-info img{
+    height: auto;
+    width: 35%;
+}
+
+.side-info h4{
+ 
+}
+
+.side-info a{
+    color: lightskyblue;
+}
+
+.mobile-side{
+    display: none;
 }
