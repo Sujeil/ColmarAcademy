@@ -107,12 +107,28 @@ header{
 .banner aside{
     margin-left: 24px;
     margin-top: 100px;
+    line-height: 1.25;
+}
+
+.banner aside h2{
+    font-size: 70px;
+    font-weight: bold;
+    color: #2B2A2A;
+}
+
+.banner aside p{
+    padding: 8% 0;
+    line-height: 1.5;
+    font-size: 35px;
+    color: #2B2A2A;
 }
 
 .banner aside button{
     color: white;
-    background-color: darkgray;
-    padding: 8px 30%;
+    background-color: #2B2A2A;
+    padding: 8px 35%;
+    height: 80px;
+    font-size: 30px;
 }
 
 @media only screen and (max-width: 480px){
