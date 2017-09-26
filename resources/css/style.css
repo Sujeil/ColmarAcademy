@@ -5,16 +5,31 @@ header{
     padding: 16px 24px;
     font-size: 32px;
     background-color: lightblue;
+    align-items: center;
+    display: flex;
 }
 
 .lion{
     height: 64px;
+    margin: auto 0;
 }
 
+#colaca{
+    display: flex;
+    width: 50%;
+}
+
+#colaca h3{
+ 
+}
+
+#nav{
+    width: 50%;
+}
 
 .desktop-nav{
     float: right;
-    margin-top: 15px;
+
 }
 
 .desktop-nav a{
