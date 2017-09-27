@@ -324,21 +324,30 @@ video{
 
 .movie p{
     width: 90%;
+    color: rgba(100, 100, 102, 0.88);
 }
 
 .thesis-side{
     padding-top: 32px;
 }
 
-.fisma{
+.thesis-side-info{
     display: flex;
     align-items: center;
 }
 
-.fisma img{
+.thesis-side-info img{
     padding: 16px;
     height: auto;
     width: 35%;
+}
+
+.block{
+    display: block;
+}
+
+.thesis-side-info p{
+    color: rgba(100, 100, 102, 0.88);
 }
 
 
