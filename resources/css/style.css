@@ -206,7 +206,6 @@ header{
 .desktop-side{
     flex-direction: column;
     width: 40%;
-
 }
 
 .side-info{
@@ -234,6 +233,49 @@ header{
     line-height: 1.5;
 }
 
+.drkgry{
+    background-color: darkgray;
+}
+
 .mobile-side{
     display: none;
+}
+
+@media only screen and (max-width: 480px){}
+
+.courses{
+    background-color: #CDCDCE;
+    padding: 32px 72px;
+}
+
+.courses h3{
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.courses-ind{
+    background-color: white;
+    margin-bottom: 32px;
+    width: 32.5%;
+}
+
+.courses-ind h4{
+    color: rgba(55, 55, 56, 0.88);
+    padding-top: 16px;
+    padding-left: 16px;
+}
+
+.dc-courses{
+    color: rgba(100, 100, 102, 0.88);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-left: 16px;
+}
+
+.courses-classes{
+    color: rgba(100, 100, 102, 0.88);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-bottom: 16px;
+    padding-left: 16px;
 }
