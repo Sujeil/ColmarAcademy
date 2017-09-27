@@ -84,6 +84,7 @@ header{
 @media only screen and (max-width: 480px) {
     header{
         max-width: 480px;
+        height: 64px;
     }
 
     #colaca{
@@ -91,7 +92,7 @@ header{
     }
 
     .lion{
-        margin: 0 15px;
+        margin: 0;
     }
 
     #colaca h3{
@@ -107,7 +108,7 @@ header{
     }
 
     .mobile-nav a{
-        padding: 0 15%; 
+        padding: 0 10%; 
     }
 
     .mobile-nav img{
@@ -151,6 +152,7 @@ header{
         padding: 0;
         flex-direction: column;
         background-color: lightgray;
+        width: 100%;
     }
 
     .banner img{
