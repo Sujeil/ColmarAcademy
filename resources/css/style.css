@@ -350,5 +350,34 @@ video{
     color: rgba(100, 100, 102, 0.88);
 }
 
+@media only screen and (max-width: 480px){}
+
+footer{
+    border-top: 2px solid lightgray;
+    padding: 16px 24px 5% 24px;
+    color: rgba(100, 100, 102, 0.88);
+    display: flex;
+    background-color: #E4E3E3;
+}
+
+footer p{
+    font-size: 22px;
+    width: 90%;
+}
+
+.term-pri{
+    width: 10%;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgba(100, 100, 102, 0.88);
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 22px;
+    align-items: center;
+    line-height: 1.5;
+    padding-left: 15px;
+}
+
 
 
