@@ -613,6 +613,20 @@ footer a{
     padding-left: 15px;
 }
 
+@media only screen and (max-width: 768px){
+    footer{
+        padding: 15px;
+    }
+    
+    footer p{
+        width: 75%;
+    }
+
+    .term-pri{
+        display: flex;
+    }
+}
+
 @media only screen and (max-width: 480px){
     .term-pri{
         display: none;
@@ -620,12 +634,13 @@ footer a{
 
     footer{
         background-color: #E9E8E8;
-        width: 80%;
+        width: 100%;
         padding: 16px 0;
         border: none;
     }
 
     footer p{
+        width: 100%;
         font-size: 16px;
         color: rgb(70, 69, 69);
         padding-left: 18px;
