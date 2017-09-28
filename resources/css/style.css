@@ -542,6 +542,21 @@ video{
     color: rgba(100, 100, 102, 0.88);
 }
 
+@media only screen and (max-width: 768px){
+    .thesis{
+        width: 100%;
+    }
+
+    .movie{
+        width: 100%;
+    }
+
+    .movie p{
+        width: 100%;
+    }
+}
+
+
 @media only screen and (max-width: 480px){
     .movie h4{
         display: none;
@@ -553,7 +568,7 @@ video{
 
 
     .thesis{
-        width: 80%;
+        width: 100%;
         padding-top: 0;
         padding-bottom: 24px;
         background-color: #E9E8E8;
