@@ -275,7 +275,15 @@ header{
         width: 100%;
     }
 
-    .mobile-side-info h4, h5, a{
+    .mobile-side-info h4{
+        padding-left: 16px;
+    }
+
+    .mobile-side-info h5{
+        padding-left: 16px;
+    }
+
+    .mobile-side-info a{
         padding-left: 16px;
     }
 
@@ -443,13 +451,19 @@ video{
 }
 
 @media only screen and (max-width: 480px){
-    .movie h4, p{
+    .movie h4{
         display: none;
     }
+
+    .movie p{
+        display: none;
+    }
+
 
     .thesis{
         width: 80%;
         padding-top: 0;
+        padding-bottom: 24px;
         background-color: #E9E8E8;
     }
 
@@ -490,6 +504,30 @@ footer a{
     line-height: 1.5;
     padding-left: 15px;
 }
+
+@media only screen and (max-width: 480px){
+    .term-pri{
+        display: none;
+    }
+
+    footer{
+        background-color: #E9E8E8;
+        width: 80%;
+        padding: 16px 0;
+        border: none;
+    }
+
+    footer p{
+        font-size: 16px;
+        color: rgb(70, 69, 69);
+        padding-left: 18px;
+    }
+
+    
+
+}
+
+
 
 
 
