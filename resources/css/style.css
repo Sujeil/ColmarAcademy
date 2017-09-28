@@ -358,7 +358,7 @@ header{
 
     .courses{
         width: 80%;
-        background-color: #E9E8E8;
+        background-color: #E7E2E2;
         padding: 32px 0;
     }
 
@@ -442,7 +442,27 @@ video{
     color: rgba(100, 100, 102, 0.88);
 }
 
-@media only screen and (max-width: 480px){}
+@media only screen and (max-width: 480px){
+    .movie h4, p{
+        display: none;
+    }
+
+    .thesis{
+        width: 80%;
+        padding-top: 0;
+        background-color: #E9E8E8;
+    }
+
+    .thesis h3{
+        font-size: 40px;
+    }
+
+    .movie{
+        width: 100%;
+        padding: 0;
+    }
+
+}
 
 footer{
     border-top: 2px solid lightgray;
