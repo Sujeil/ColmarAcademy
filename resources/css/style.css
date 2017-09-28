@@ -85,7 +85,7 @@ header{
     display: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (min-width: 481px) {
     header{
         padding: 16px;
         display: block;
@@ -193,12 +193,12 @@ header{
     font-size: 30px;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
     .banner{
         padding: 0;
         flex-direction: column;
         background-color: lightgray;
-        width: 768px;
+        width: 100%;
     }
 
     .banner img{
@@ -307,22 +307,10 @@ header{
         margin-left: -24px;
     }
 
-    .main h3{
-    }
-}
-
-@media only screen and (max-width: 480px){  
-    .main{
-        display: none;
-    }
-
     .desktop-side{
         display: none;
     }
 
-    .information{
-        width: 80%;
-    }
     .mobile-side{
         display: block;
         width: 100%;
@@ -370,6 +358,17 @@ header{
         line-height: 1.5;
 
     }
+}
+
+@media only screen and (max-width: 480px){  
+    .main{
+        display: none;
+    }
+
+    .information{
+        width: 100%;
+    }
+
 }
 
 /**Courses section**/
@@ -421,6 +420,34 @@ header{
     font-weight: 300;
     padding-bottom: 16px;
     padding-left: 16px;
+}
+
+@media only screen and (max-width: 768px){
+    .courses{
+        padding: 32px;
+    }
+
+    .courses h3{
+        text-align: left;
+        padding-left: 20px;
+    }
+    
+    .desktop-courses{
+        display: block;
+    }
+
+    .courses-ind{
+        width: 100%;
+    }
+
+    .courses-ind img{
+        width: 100%;
+    }
+
+    .mid{
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 @media only screen and (max-width: 480px){
