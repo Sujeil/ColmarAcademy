@@ -83,7 +83,7 @@ header{
 
 @media only screen and (max-width: 480px) {
     body{
-        width: 100%;
+        width: 480px;
     }
 
     header{
@@ -248,7 +248,7 @@ header{
     display: none;
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 480px){  
     .main{
         display: none;
     }
@@ -257,20 +257,57 @@ header{
         display: none;
     }
 
+    .information{
+        width: 80%;
+    }
     .mobile-side{
         display: block;
-        width: 80%;
+        width: 100%;
+        background-color: #E9E8E8;
+        padding-bottom: 16px;
+    }
+
+    .mobile-side-info{
+        padding: 16px;
     }
 
     .mobile-side-info img{
         width: 100%;
     }
 
+    .mobile-side-info h4, h5, a{
+        padding-left: 16px;
+    }
+
+    .mobile-side-info h4{
+        font-size: 30px;
+        padding-top: 16px;
+
+    }
+
+    .mobile-side-info h5{
+        font-size: 20px;
+        font-family: 'Droid Sans', sans-serif;
+        line-height: 1.5;
+    }
+
+    .mobile-side-info a{
+        color: #298CE9;
+        font-family: 'Droid Sans', sans-serif;
+        text-decoration: none;
+        font-size: 20px;
+        line-height: 1.5;
+
+    }
 }
 
 .courses{
     background-color: #CDCDCE;
     padding: 32px 72px;
+}
+
+.mobile{
+    display: none;
 }
 
 .desktop-courses{
@@ -314,7 +351,37 @@ header{
     padding-left: 16px;
 }
 
-@media only screen and (max-width: 480px){}
+@media only screen and (max-width: 480px){
+    .desktop{
+        display: none;
+    }
+
+    .courses{
+        width: 80%;
+        background-color: #E9E8E8;
+        padding: 32px 0;
+    }
+
+    .courses h3{
+        font-size: 40px;
+    }
+
+    .mobile{
+        display: block;
+        padding-bottom: 32px; 
+    }
+
+    .mobile-courses{
+        background-color: #D6D5D5;
+        margin: 8px 10px;
+    }
+
+    .mobile-courses h5{
+        font-size: 30px;
+        padding: 16px;
+        padding-bottom: 24px;
+    }
+}
 
 .thesis{
     background-color: #E4E3E3;
