@@ -1,6 +1,9 @@
+/**Universal Styling**/
+
 body{
     font-family: 'Montserrat', sans-serif;
     color: #363535;
+    width: 100%;
 }
 
 h2{
@@ -28,6 +31,7 @@ p{
     padding: 32px 24px;
 }
 
+/**Header/Navigation section**/
 header{
     height: 64px;
     padding: 16px 24px;
@@ -81,6 +85,33 @@ header{
     display: none;
 }
 
+@media only screen and (max-width: 768px) {
+    header{
+        padding: 16px;
+        display: block;
+    }
+
+    #colaca{
+        align-items: center;
+    }
+
+    #colaca h3{
+        font-size: 20px;
+    }
+
+    .desktop-nav{
+        align-items: center;
+        display: block;
+        width: 95%;
+    }
+    
+    .desktop-nav a{
+        font-size: 20px;
+        padding-left: 5px;
+        float: center;
+    }
+}
+
 @media only screen and (max-width: 480px) {
     body{
         width: 480px;
@@ -120,6 +151,7 @@ header{
     }
 }
 
+/**Banner section**/
 .banner{
     background-color: darkgray;
     display: flex;
@@ -191,6 +223,7 @@ header{
     }
 }
 
+/**Information section**/
 .information{
     display: flex;
     background-color: #E4E3E3;
@@ -309,6 +342,7 @@ header{
     }
 }
 
+/**Courses section**/
 .courses{
     background-color: #CDCDCE;
     padding: 32px 72px;
@@ -391,6 +425,7 @@ header{
     }
 }
 
+/**Thesis section**/
 .thesis{
     background-color: #E4E3E3;
     padding-top: 32px;
@@ -478,6 +513,7 @@ video{
 
 }
 
+/**Footer section**/
 footer{
     border-top: 2px solid lightgray;
     padding: 16px 24px 5% 24px;
