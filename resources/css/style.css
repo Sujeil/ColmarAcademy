@@ -82,17 +82,20 @@ header{
 }
 
 @media only screen and (max-width: 480px) {
-    header{
-        max-width: 480px;
-        height: 64px;
+    body{
+        width: 100%;
     }
 
-    #colaca{
-        width: auto;
+    header{
+        height: 64px;
     }
 
     .lion{
         margin: 0;
+    }
+
+    #colaca{
+        width: 10%;
     }
 
     #colaca h3{
@@ -104,10 +107,11 @@ header{
     }
 
     .mobile-nav{
-        display: flex;    
+        display: flex; 
     }
 
     .mobile-nav a{
+        width: 100%;
         padding: 0 10%; 
     }
 
@@ -152,11 +156,12 @@ header{
         padding: 0;
         flex-direction: column;
         background-color: lightgray;
-        width: 100%;
+        width: 80%;
     }
 
     .banner img{
         width: 100%;
+        height: auto;
         padding: 0;
     }
 
@@ -243,7 +248,25 @@ header{
     display: none;
 }
 
-@media only screen and (max-width: 480px){}
+@media only screen and (max-width: 480px){
+    .main{
+        display: none;
+    }
+
+    .desktop-side{
+        display: none;
+    }
+
+    .mobile-side{
+        display: block;
+        width: 80%;
+    }
+
+    .mobile-side-info img{
+        width: 100%;
+    }
+
+}
 
 .courses{
     background-color: #CDCDCE;
