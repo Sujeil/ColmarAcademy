@@ -89,26 +89,36 @@ header{
     header{
         padding: 16px;
         display: block;
+        width: 768px;
+        margin-bottom: 16px;
     }
 
     #colaca{
         align-items: center;
+        width: 100%;
     }
 
     #colaca h3{
         font-size: 20px;
     }
 
+    #nav{
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
     .desktop-nav{
         align-items: center;
         display: block;
-        width: 95%;
+        float: none;
+
     }
     
     .desktop-nav a{
         font-size: 20px;
         padding-left: 5px;
-        float: center;
     }
 }
 
@@ -183,12 +193,12 @@ header{
     font-size: 30px;
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 768px){
     .banner{
         padding: 0;
         flex-direction: column;
         background-color: lightgray;
-        width: 80%;
+        width: 768px;
     }
 
     .banner img{
@@ -279,6 +289,26 @@ header{
 
 .mobile-side{
     display: none;
+}
+
+@media only screen and (max-width: 768px){
+    .information{
+        display: block;
+        width: 768px;
+    }
+
+    .main{
+        width: 100%;
+    }
+
+    .main img{
+        width: 768px;
+        padding: 0;
+        margin-left: -24px;
+    }
+
+    .main h3{
+    }
 }
 
 @media only screen and (max-width: 480px){  
