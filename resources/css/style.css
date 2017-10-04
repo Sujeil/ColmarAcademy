@@ -6,22 +6,22 @@ body{
     width: 100%;
 }
 
-h2{
+*h2{
     font-size: 70px;
     font-weight: bold;
 }
 
-h3{
+*h3{
     font-size: 60px;
     font-weight: bold;
 }
 
-h4{
+*h4{
     font-size: 40px;
     line-height: 1.5;
 }
 
-p{
+*p{
     font-family: 'Droid Sans', sans-serif;
     font-size: 25px;
     line-height: 1.5;
@@ -31,24 +31,14 @@ p{
     padding: 32px 24px;
 }
 
+
 /**Header/Navigation section**/
-header{
-    height: 64px;
-    padding: 16px 24px;
+header nav{
     font-size: 32px;
-    align-items: center;
-    display: flex;
 }
 
-.lion{
+#lion{
     height: 64px;
-    margin: auto 0;
-}
-
-#colaca{
-    display: flex;
-    align-items: center;
-    width: 50%;
 }
 
 #colmar{
@@ -66,12 +56,8 @@ header{
     left: -15px;
 }
 
-#nav{
-    width: 50%;
-}
-
-.desktop-nav{
-    float: right;
+.right{
+    align-items: right;
 }
 
 .desktop-nav a{
@@ -84,7 +70,7 @@ header{
 .mobile-nav{
     display: none;
 }
-
+@media only screen and (max-width:)
 @media only screen and (max-width: 768px) and (min-width: 481px) {
     header{
         padding: 16px;
@@ -405,6 +391,10 @@ header{
     color: rgba(55, 55, 56, 0.88);
     padding-top: 16px;
     padding-left: 16px;
+}
+
+.courses-ind img{
+    width: 100%;
 }
 
 .dc-courses{

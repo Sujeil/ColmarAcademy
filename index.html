@@ -7,31 +7,66 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href=".\resources\css\reset.css" type="text/css" rel="stylesheet">
-        <link href=".\resources\css\style.css" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">        
         <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,500" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Asap:500,600" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Heebo:100" rel="stylesheet">
+        <link href=".\resources\css\style.css" type="text/css" rel="stylesheet">
     </head>
     <body>
         <header>
-            <section id="colaca">
-                <img class="lion" src=".\resources\images\ic-logo.svg" alt="Standing lion">
-                <h3 id="colmar">COLMAR</h3>
-                <h3 id="academy">ACADEMY</h3>
-            </section>
-            <section id="nav">
-                <nav class="desktop-nav">
-                    <a href="#">On campus</a>
-                    <a href="#">Online</a>
-                    <a href="#">or companies</a>
-                    <a href="#">Sign in</a>
-                </nav>
-                <nav class="mobile-nav">
-                    <a href="#"><img src=".\resources\images\ic-on-campus.svg" alt="On Campus"></a>
-                    <a href="#"><img src=".\resources\images\ic-online.svg" alt="Online"></a>
-                    <a href="#"><img src=".\resources\images\ic-login.svg" alt="Sign in"></a>
-                </nav>
-            </section>
+            <nav class="nav navbar navbar-default navbar-expand-lg navbar-fixed-top">
+                <div class="row container-flex">
+                    <div class="col">
+                      <div class="row">
+                        <img class="navbar-brand navbar-left"  id="lion" src=".\resources\images\ic-logo.svg" alt="Standing lion">   
+                        <h3 id="colmar">COLMAR</h3>
+                        <h3 id="academy">ACADEMY</h3>
+                      </div>
+                    </div>
+        <!--Desktop nav-->
+                    <div class="col">
+                      <div class="row">     
+                        <ul class="navbar-nav desktop-nav">
+                            <li>
+                              <a href="#">On campus</a>
+                            </li>
+                            <li>
+                                <a href="#">Online</a>
+                            </li>
+                            <li>
+                                <a href="#">or companies</a>
+                            </li>
+                            <li>
+                                <a href="#">Sign in</a>
+                            </li>
+                        </ul>
+        <!--Mobile nav-->
+                        <ul class="navbar-nav mobile-nav">
+                            <li>
+                                <a href="#">
+                                    <img src=".\resources\images\ic-on-campus.svg" alt="On Campus">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                  <img src=".\resources\images\ic-online.svg" alt="Online">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src=".\resources\images\ic-login.svg" alt="Sign in">
+                                </a>
+                            </li>
+                        </ul>
+                      </div>
+                   </div>
+                </div>
+            </nav>
+
+
+                    
+                    
         </header>
         <section class="banner container">
             <img class="container" src=".\resources\images\banner.jpg" alt="Students at picnic table">
