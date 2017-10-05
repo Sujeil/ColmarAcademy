@@ -31,6 +31,12 @@ p{
     padding: 32px 24px;
 }
 
+@media only screen and (max-width: 768px) and (min-width: 468px){
+    body{
+        margin: 0;
+        width: 768px;
+    }
+}
 
 /**Header/Navigation section**/
 header{
@@ -88,10 +94,23 @@ header{
 @media only screen and (max-width: 1024px) and (min-width:767px) {
   header{
         padding: 16px 0;
+        width: 100%;
+    }
+
+    #colaca{
+        margin-right: 1%;
+    }
+
+    #nav{
+        width: 50%;
     }
 
     .desktop-nav{
         font-size: 30px;
+    }
+
+    .desktop-nav a{
+        padding-left: 10px;
     }
 
 }
@@ -100,8 +119,8 @@ header{
      header{
         padding: 16px 0;
         display: block;
-        width: 768px;
-        margin-bottom: 16px;
+        width: 82%;
+        margin: 16px 0;
     }
 
     #colaca{
@@ -205,7 +224,7 @@ header{
     .banner{
         flex-direction: column;
         background-color: lightgray;
-        width: 100%;
+        width: 95.3%;
     }
 
     .banner img{
@@ -247,7 +266,7 @@ header{
         padding: 0;
         flex-direction: column;
         background-color: lightgray;
-        width: 100%;
+        width: 84.5%;
     }
 
     .banner img{
@@ -343,7 +362,7 @@ header{
 
 @media only screen and (max-width: 1024px) and (min-width: 767px){
     .information{
-        width: 1072px;
+        width: 100%;
     }
 
     .main{
@@ -396,7 +415,7 @@ header{
 @media only screen and (max-width: 768px) and (min-width:481px){
     .information{
         display: block;
-        width: 100%;
+        width: 84.5%;
     }
 
     .main{
@@ -529,7 +548,7 @@ header{
 
 @media only screen and (max-width: 1024px){
     .courses{
-        width: 90.65%;
+        width: 85.9%;
     }
 
     .courses-ind{
@@ -548,7 +567,7 @@ header{
 @media only screen and (max-width: 768px){
     .courses{
         padding: 32px;
-        width: 91.7%;
+        width: 76.23%;
     }
 
     .courses h3{
@@ -607,6 +626,7 @@ header{
 }
 
 /**Thesis section**/
+
 .thesis{
     background-color: #E4E3E3;
     padding-top: 32px;
@@ -666,9 +686,10 @@ video{
     color: rgba(100, 100, 102, 0.88);
 }
 
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1024px) and (min-width: 767px){
     .thesis{
-        width: 100%;
+        width: 95.3%;
+        padding: 32px 24px 24px 24px;
     }
 
     .movie{
@@ -678,8 +699,17 @@ video{
     .movie p{
         width: 100%;
     }
+
+    .drkgry{
+        padding: 5px 0;
+    }
 }
 
+@media only screen and (max-width: 768px) and (min-width: 481px){
+    .thesis{
+        width: 78.3%;
+    }
+}
 
 @media only screen and (max-width: 480px){
     .movie h4{
@@ -712,7 +742,7 @@ video{
 /**Footer section**/
 footer{
     border-top: 2px solid lightgray;
-    padding: 16px 24px 5% 24px;
+    padding: 16px 24px;
     color: rgba(100, 100, 102, 0.88);
     display: flex;
     background-color: #E4E3E3;
@@ -737,9 +767,24 @@ footer a{
     padding-left: 15px;
 }
 
+@media only screen and (max-width: 1024px) and (min-width: 769px){
+    footer{
+        width: 95.3%;
+    }
+
+    footer p{
+        width: 80%;
+    }
+
+    .term-pri{
+        display: flex;
+    }
+}
+
 @media only screen and (max-width: 768px){
     footer{
         padding: 15px;
+        width: 80.6%;
     }
     
     footer p{
