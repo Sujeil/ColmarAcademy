@@ -6,22 +6,22 @@ body{
     width: 100%;
 }
 
-h2{
+*h2{
     font-size: 70px;
     font-weight: bold;
 }
 
-h3{
+*h3{
     font-size: 60px;
     font-weight: bold;
 }
 
-h4{
+*h4{
     font-size: 40px;
     line-height: 1.5;
 }
 
-p{
+*p{
     font-family: 'Droid Sans', sans-serif;
     font-size: 25px;
     line-height: 1.5;
@@ -31,24 +31,24 @@ p{
     padding: 32px 24px;
 }
 
+<<<<<<< HEAD
 @media only screen and (max-width: 768px) and (min-width: 468px){
     body{
         margin: 0;
         width: 768px;
     }
 }
+=======
+>>>>>>> cc1aa9935d431f4616c28344f59ee12d1449b4e1
 
 /**Header/Navigation section**/
-header{
-    height: 64px;
-    padding: 16px 24px;
+header nav{
     font-size: 32px;
-    align-items: center;
-    display: flex;
 }
 
-.lion{
+#lion{
     height: 64px;
+<<<<<<< HEAD
     margin: auto 0;
 }
 
@@ -56,6 +56,8 @@ header{
     display: flex;
     align-items: center;
     flex-grow: 2;
+=======
+>>>>>>> cc1aa9935d431f4616c28344f59ee12d1449b4e1
 }
 
 #colmar{
@@ -73,12 +75,17 @@ header{
     left: -15px;
 }
 
+<<<<<<< HEAD
 #nav{
     flex-grow: 2;
 }
 
 .desktop-nav{
     float: right;
+=======
+.right{
+    align-items: right;
+>>>>>>> cc1aa9935d431f4616c28344f59ee12d1449b4e1
 }
 
 .desktop-nav a{
@@ -91,6 +98,7 @@ header{
 .mobile-nav{
     display: none;
 }
+<<<<<<< HEAD
 @media only screen and (max-width: 1024px) and (min-width:767px) {
   header{
         padding: 16px 0;
@@ -115,6 +123,9 @@ header{
 
 }
 
+=======
+@media only screen and (max-width:)
+>>>>>>> cc1aa9935d431f4616c28344f59ee12d1449b4e1
 @media only screen and (max-width: 768px) and (min-width: 481px) {
      header{
         padding: 16px 0;
